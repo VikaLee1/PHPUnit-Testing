@@ -1,0 +1,19 @@
+{
+    "name": "viktoria/phpunit",
+    "authors": [{
+        "name": "viktoria"
+    }],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Exercise\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Exercise\\Test\\": "tests/"
+        }
+    }
+}
